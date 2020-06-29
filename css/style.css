@@ -6,11 +6,13 @@
 
 section {
   position: relative;
-  width: 100%;
-  height: 100vh;
+  width: calc(100% - 60px);
+  height: calc(100vh - 60px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 30px;
+  border-radius: 50px;
 }
 
 h2 {
@@ -18,6 +20,18 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 100px;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  padding: 0.5em;
+  text-decoration: underline;
+}
+
+section > div.layover {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
 }
 
 section.siracusa {
