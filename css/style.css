@@ -6,12 +6,12 @@
 
 section {
   position: relative;
-  width: calc(100% - 60px);
-  height: calc(100vh - 60px);
+  width: calc(100% - 80px);
+  height: calc(100vh - 80px);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 30px;
+  margin: 40px;
   border-radius: 50px;
 }
 
@@ -24,7 +24,7 @@ h2 {
   color: white;
   text-shadow: 3px 3px 4px black;
   padding: 0.5em;
-  text-decoration: underline;
+  border: 6px solid white;
 }
 
 section > div.layover {
@@ -36,4 +36,16 @@ section > div.layover {
 
 section.siracusa {
   background-image: url(../img/siracusa.jpg);
+}
+
+section.roma {
+  background-image: url(../img/roma.jpg);
+}
+
+section.milano {
+  background-image: url(../img/milano.jpg);
+}
+
+section.lisbona {
+  background-image: url(../img/lisbona.jpg);
 }
